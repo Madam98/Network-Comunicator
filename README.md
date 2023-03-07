@@ -1,3 +1,15 @@
+# Network-Comunicator
+
+### Description
+An application that allows users to join a chat room and enables them to exchange messages. The user application was developed in Java, the server in C.
+
+### Key features of the project
+- learning about sockets, descriptor management, TCP communication basics
+- creating a java client that responds to specific user commands
+- asynchronous joining of multiple users to a chat room
+- basic message synchronization between all users
+
+### Server instructions
 Usage:
 [command]:[arguments].
 IT IS IMPORTANT THAT THERE IS NO SPACE BETWEEN THE COMMAND A ":"!
