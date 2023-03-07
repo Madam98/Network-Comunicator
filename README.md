@@ -1,15 +1,14 @@
-# Serwerek - komendy update 03.02
-Sposób użycia:
-[komenda]:[argumenty]
-WAŻNE JEST ABY MIĘDZY KOMENDĄ, A ":" NIE WYSTAPIŁA SPACJA!
+Usage:
+[command]:[arguments].
+IT IS IMPORTANT THAT THERE IS NO SPACE BETWEEN THE COMMAND AND ":"!
 
-Legenda komend (dla serwera):
-- [add]     - dodanie nowego użytkownika oraz utworzenie jego folderu, przypisanie odpowiedniej ścieżki dla użytkownika (powinna być wywołana tylko raz przy tworzeniu)
-- [touch]   - dodanie nowego pliku o nazwie arguments
-- [share]   - W PRZYGOTOWANIU wyslanie deskryptora pliku do udostepnienia jakiemus uzytkownikow W PRZYGOTOWANIU
-- [delete]  - usunięcie pliku o danej nazwie
-- [copy]    - skopiowanie pliku o danej nazwie i dodania przedrostka "COPY_"
-- [newname] - zmiana nazwy pliku. Aby zmienić nazwę powinno to zostać prześłane w postaci newname:nazwa_plik_1 > nazwa_plik_2 (SPACJE PRZED > I PO SĄ KONIECZNE!)
-- [enter]   - otwórz plik o danej nazwie. Przypisuje deskryptor do struktury klienta
-- [modifiy] - W PRZYGOTOWANIU wyslij znak do pliku i go zapisz W PRZYGOTOWANIU
-- [close]   - W PRZYGOTOWANIU zamknij plik W PRZYGOTOWANIU
+Command legend (for the server):
+- [add] - add a new user and create his folder, assign an appropriate path for the user (should be called only once when creating)
+- touch] - add a new file named arguments
+- share] - send a file descriptor to share with some users
+- delete] - delete a file with a given name
+- copy] - copy a file with a given name and add a prefix "COPY_".
+- [newname] - change the name of the file. To change the name it should be sent as newname:name_file_1 > name_file_2 (SPACES BEFORE > AND AFTER ARE MUST!).
+- Enter] - open the file with the given name. Assigns a descriptor to the client structure
+- modifiy] - send a character to the file and save it
+- close] - close the file
