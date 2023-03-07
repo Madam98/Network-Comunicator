@@ -1,6 +1,6 @@
 Usage:
 [command]:[arguments].
-IT IS IMPORTANT THAT THERE IS NO SPACE BETWEEN THE COMMAND AND ":"!
+IT IS IMPORTANT THAT THERE IS NO SPACE BETWEEN THE COMMAND A ":"!
 
 Command legend (for the server):
 - [add] - add a new user and create his folder, assign an appropriate path for the user (should be called only once when creating)
